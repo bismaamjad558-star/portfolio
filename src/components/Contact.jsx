@@ -15,11 +15,23 @@ function Contact() {
           <div className="space-y-5 text-lg">
 
             <p>
-              📧 <strong>Email:</strong> bismaamjad379@gmail.com
+              📧 <strong>Email:</strong>{" "}
+              <a
+                href="mailto:bismaamjad379@gmail.com"
+                className="text-blue-600 hover:underline"
+              >
+                bismaamjad379@gmail.com
+              </a>
             </p>
 
             <p>
-              📱 <strong>Phone:</strong> +92 300 6611650
+              📱 <strong>Phone:</strong>{" "}
+              <a
+                href="tel:+923006611650"
+                className="text-blue-600 hover:underline"
+              >
+                +92 300 6611650
+              </a>
             </p>
 
             <p>
@@ -27,18 +39,37 @@ function Contact() {
             </p>
 
             <p>
-              💼 <strong>LinkedIn:</strong> linkedin.com/in/bismaamjad
+              💼 <strong>LinkedIn:</strong>{" "}
+              <a
+                href="https://www.linkedin.com/in/bismaamjad"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                linkedin.com/in/bismaamjad
+              </a>
             </p>
 
             <p>
-              💻 <strong>GitHub:</strong> github.com/bismaamjad558
+              💻 <strong>GitHub:</strong>{" "}
+              <a
+                href="https://github.com/bismaamjad558-star"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                github.com/bismaamjad558-star
+              </a>
             </p>
 
           </div>
 
-          <button className="mt-8 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
+          <a
+            href="mailto:bismaamjad379@gmail.com"
+            className="inline-block mt-8 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
+          >
             Send Message
-          </button>
+          </a>
 
         </div>
       </div>

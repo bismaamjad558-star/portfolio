@@ -11,6 +11,9 @@ function Projects() {
         "A fully responsive website built using HTML, CSS, JavaScript and React.js with a modern user interface.",
       tech: "React.js, Tailwind CSS",
       image: responsivewebsite,
+      github:
+        "https://github.com/bismaamjad558-star/reponsive-website-project",
+    
     },
     {
       title: "Quiz App",
@@ -18,6 +21,9 @@ function Projects() {
         "Interactive quiz application with score calculation and multiple-choice questions.",
       tech: "React.js, JavaScript",
       image: quizapp,
+      github:
+        "https://github.com/bismaamjad558-star/quiz-projects",
+      
     },
     {
       title: "Stop Watch",
@@ -25,6 +31,9 @@ function Projects() {
         "Digital stopwatch with start, stop and reset functionality.",
       tech: "JavaScript",
       image: stopwatch,
+      github:
+        "https://github.com/bismaamjad558-star/StopWatch-project",
+      
     },
     {
       title: "E-Commerce Website",
@@ -32,6 +41,9 @@ function Projects() {
         "Responsive e-commerce website with a clean and attractive user interface.",
       tech: "React.js, Tailwind CSS",
       image: ecommerce,
+      github:
+        "https://github.com/bismaamjad558-star/E-commerence-project",
+      
     },
   ];
 
@@ -68,13 +80,16 @@ function Projects() {
                 </p>
 
                 <div className="flex gap-4">
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+                  >
                     GitHub
-                  </button>
+                  </a>
 
-                  <button className="border border-blue-600 text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white transition">
-                    Live Demo
-                  </button>
+                  
                 </div>
               </div>
             </div>
