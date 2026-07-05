@@ -21,12 +21,14 @@ function About() {
           </h2>
 
           <p className="text-gray-600 leading-8 mb-4">
-            Hello! I'm <span className="font-semibold text-blue-600">Bisma Amjad</span>, a BS Computer Science student and passionate Frontend Developer.
+            Hello! I'm <span className="font-semibold text-blue-600">Bisma Amjad</span>, a BS Computer Science student and passionate Full Stack Developer.
           </p>
 
           <p className="text-gray-600 leading-8 mb-4">
-            I enjoy building responsive, modern, and user-friendly websites using React.js, JavaScript, HTML, CSS, and Tailwind CSS.
-          </p>
+            I enjoy building modern, responsive, and user-friendly web applications using
+  MongoDB, Express.js, React.js, and Node.js. I am continuously improving my
+  frontend and backend development skills by working on real-world projects and
+  learning new technologie</p>
 
           <p className="text-gray-600 leading-8 mb-6">
             My goal is to become a professional Full Stack Web Developer by creating real-world projects and continuously improving my skills.
@@ -45,7 +47,7 @@ function About() {
 
             <div>
               <h3 className="font-bold">Specialization:</h3>
-              <p>Frontend Development</p>
+              <p>Full Stack Development (MERN)</p>
             </div>
 
             <div>

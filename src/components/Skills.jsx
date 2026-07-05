@@ -4,6 +4,9 @@ function Skills() {
     { name: "CSS", level: "90%" },
     { name: "JavaScript", level: "85%" },
     { name: "React.js", level: "80%" },
+    { name:  "Express.js", level:"80"},
+    { name:  "Node.js",  level:"80"},
+    { name: "MongoDB",  level:"80"},
     { name: "Tailwind CSS", level: "85%" },
     { name: "Git & GitHub", level: "75%" },
   ];
