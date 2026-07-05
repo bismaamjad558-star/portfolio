@@ -41,7 +41,7 @@ function Contact() {
             <p>
               💼 <strong>LinkedIn:</strong>{" "}
               <a
-                href="https://www.linkedin.com/in/bismaamjad"
+                href="https://www.linkedin.com/in/bisma-amjad-715aa633a"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"

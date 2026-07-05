@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen bg-gray-100 flex items-center justify-center px-6"
+      className="min-h-screen bg-gray-100 flex items-center justify-center px-6 pt-28 md:pt-20"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
@@ -24,13 +24,14 @@ function Hero() {
           </p>
 
           <div className="flex gap-4">
-            <a
-              href="/Bisma_Amjad_CV-_.pdf"
-              download
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-            >
-              Download CV
-            </a>
+           <a
+  href="/Bisma_Amjad_CV-.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+>
+  Download CV
+</a>
 
             <a
               href="#contact"
